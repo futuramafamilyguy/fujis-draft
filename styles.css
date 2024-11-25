@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SNsanafon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "CustomFont", sans-serif;
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-image: url("./assets/last-night.jpg"); /* Path to your image */
+  background-size: cover; /* Stretch to cover the screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  overflow: hidden;
+}
+
+.content {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
